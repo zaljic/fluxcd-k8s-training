@@ -33,7 +33,6 @@ spec:
       interval: 12h
   values:
     controller:
-      service:
-        type: "NodePort"
-    admissionWebhooks:
-      enabled: false
+      ingressClassResource:
+        default: true
+      watchIngressWithoutClass: true 
