@@ -19,7 +19,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 2m0s
-  path: ./fluxcd/clusters/local
+  path: ./clusters/local
   prune: true
   sourceRef:
     kind: GitRepository
